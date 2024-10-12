@@ -1,0 +1,36 @@
+name: kuku_fm
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0-334.2.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.1
+  splash_screen_view: ^2.0.1
+  flutter_svg: ^1.0.0
+  material_design_icons_flutter: ^5.0.6595
+  audioplayers: 6.1.0
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+
